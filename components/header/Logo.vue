@@ -1,0 +1,1 @@
+<template>  <NuxtLink      to="/"      class="logo text-2xl font-heading font-extrabold uppercase text-white no-underline"  >    KODERRA  </NuxtLink></template>

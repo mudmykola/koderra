@@ -1,0 +1,1 @@
+export const useNavigationLinks = () => [    {label: 'Головна', to: '/'},    {label: 'Роботи', to: '/work'},    {label: 'Послуги', to: '/services'},    {label: 'Підхід', to: '/approach'},    {label: 'Про студію', to: '/about'},    {label: 'Блог', to: '/blog'},    {label: 'Контакт', to: '/contact'}]
