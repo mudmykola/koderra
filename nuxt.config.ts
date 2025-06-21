@@ -5,7 +5,19 @@ export default defineNuxtConfig({
     compatibilityDate: '2025-05-15',
     ssr: false,
     devtools: {enabled: false},
-    css: ['~/assets/css/main.css'],
+    modules: [
+        '@nuxtjs/google-fonts',
+    ],
+    googleFonts: {
+        families: {
+            Montserrat: '400..900',
+            'Lato': true,
+        },
+        display: 'swap',
+        preload: true,
+    },
+    css: ['~/assets/css/main.css',
+        '~/assets/css/style.scss'],
     vite: {plugins: [tailwindcss(),],},
     components: [
         {

@@ -1,7 +1,8 @@
 <template>
-  <div class="header ">
-    <p class="text-red-500">
-      Header
-    </p>
+  <div class="home-hero">
+    <HeroSection/>
+  </div>
+  <div class="works">
+    <WorksPreview/>
   </div>
 </template>
