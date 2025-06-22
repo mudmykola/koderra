@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from '@tailwindcss/vite'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
+import Components from 'unplugin-vue-components/vite'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
@@ -15,7 +18,19 @@ export default defineNuxtConfig({
     preload: true
   },
   css: ['~/assets/css/main.css', '~/assets/css/style.scss'],
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [
+      tailwindcss(),
+      Components({
+        resolvers: [IconsResolver({ prefix: '', customCollections: [] })]
+      }),
+      Icons({
+        compiler: 'vue3',
+        autoInstall: true
+      })
+    ]
+  },
+
   components: [
     {
       path: '~/components',
