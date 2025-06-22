@@ -1,1 +1,1 @@
-<script setup></script><template>  <div class="backdrop-grayscale text-gray-900 min-h-screen flex flex-col">    <HeaderComponent/>    <main class="flex-1">      <slot/>    </main>    Footer  </div></template>
+<script setup></script><template>  <div class="backdrop-grayscale text-gray-900 min-h-screen flex flex-col">    <HeaderComponent />    <main class="flex-1">      <slot />    </main>    Footer  </div></template>

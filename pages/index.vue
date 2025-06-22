@@ -1,11 +1,11 @@
 <template>
-  <div class="home-hero">
-    <HeroSection/>
+  <div id="home" class="home-hero__section">
+    <HeroSection />
   </div>
-  <div class="works">
-    <WorksPreview/>
+  <div id="works" class="works">
+    <WorksPreview />
   </div>
-  <div class="services">
-    <ServicesSection/>
+  <div id="services" class="services-section">
+    <ServicesSection />
   </div>
 </template>
