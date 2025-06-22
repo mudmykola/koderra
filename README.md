@@ -1,6 +1,7 @@
 # KODERRA — Digital Studio Site
 
 Koderra — це персональний сайт / студія одного розробника з фокусом на:
+
 - Shopify Plus розробку
 - Headless storefronts на Nuxt.js
 - Автоматизацію процесів (Google Sheets, API, Python-скрипти)
@@ -38,3 +39,4 @@ npm run dev
 
 # Білд для продакшену
 npm run build
+```
