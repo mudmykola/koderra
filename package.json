@@ -16,11 +16,14 @@
     "nuxt": "^3.17.5",
     "scrollreveal": "^4.0.9",
     "tailwindcss": "^4.1.10",
+    "unplugin-vue-components": "^28.7.0",
     "vue": "^3.5.16",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.2.3",
     "eslint-config-prettier": "^10.1.5",
-    "sass": "^1.89.2"
+    "sass": "^1.89.2",
+    "unplugin-icons": "^22.1.0"
   }
 }
