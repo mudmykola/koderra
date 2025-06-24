@@ -1,0 +1,1 @@
+export default () => ({    legacy: false,    locale: 'uk',    fallbackLocale: 'uk',    messages: {}})
