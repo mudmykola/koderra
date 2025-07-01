@@ -1,11 +1,14 @@
 <template>
   <div id="home" class="home-hero__section">
-    <HeroSection />
+    <HeroSection/>
   </div>
   <div id="works" class="works">
-    <WorksPreview />
+    <WorksPreview/>
   </div>
   <div id="services" class="services-section">
-    <ServicesSection />
+    <ServicesSection/>
+  </div>
+  <div id="approach" class="approach-section">
+    <ApproachSection/>
   </div>
 </template>
